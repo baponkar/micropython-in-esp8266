@@ -12,8 +12,8 @@ Step by step micropython test in esp8266
 - [x] UPyCraft v1.1 IDE - https://randomnerdtutorials.com/uPyCraftWindows
 
 * firmeware install into esp8266 board
-![GitHub Logo](upycraft_firmware_install.png)
-![GitHub Logo](upycraft_firmware_install1.png)
+![GitHub Logo](upycraft_frimeware_install.png)
+![GitHub Logo](upycraft_frimware_install1.png)
 
 * Onboard Led blink - https://github.com/baponkar/micropython-in-esp8266/blob/main/onboard_led_control.py
 
