@@ -23,7 +23,20 @@
 * firmeware install into esp8266 board
 ![GitHub Logo](upycraft_frimeware_install.png)
 ![GitHub Logo](upycraft_frimeware_install1.png)
+
+
+## Installing tool for esp8266 in Ubuntu
+
+- [x]  ```sudo pip3 install esptool```
+- [x] ```esptool.py --port /dev/ttyUSB0 erase_flash```
+- [x] ```esptool.py --port /dev/ttyUSB0 --baud 460800 write_flash --flash_size=detect 0 esp8266-20170108-v1.8.7.bin```
+- [x] ```esptool.py --port /dev/ttyUSB0 --baud 460800 write_flash --flash_size=detect -fm dio 0 esp8266-20170108-v1.8.7.bin
+```
+- [x] ```picocom /dev/ttyUSB0 -b115200```
+- [x] ``````
+
 ###### [Micropython Documentation](https://docs.micropython.org/en/latest/esp8266/tutorial/intro.html)
+
 
 * [Onboard Led blink](https://github.com/baponkar/micropython-in-esp8266/blob/main/onboard_led_control.py)
 * [Network Control]( https://github.com/baponkar/micropython-in-esp8266/blob/main/network_control.py)
