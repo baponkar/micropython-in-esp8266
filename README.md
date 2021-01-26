@@ -1,4 +1,5 @@
 # micropython-in-esp8266
+![GitHub Logo](https://github.com/baponkar/micropython-in-esp8266/blob/main/NodeMCU-ESP8266-Pinout.jpg)
 Step by step micropython test in esp8266
 
 - [x] My System is Windows-10
