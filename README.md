@@ -9,7 +9,7 @@ Step by step micropython test in esp8266
 
 - [x] Micropython Firmwaire - http://micropython.org/resources/firmware/esp8266-20170108-v1.8.7.bin or https://github.com/baponkar/micropython-in-esp8266/blob/main/esp8266-20170108-v1.8.7.bin
 
-- [x] UPyCraft v1.1 IDE - https://randomnerdtutorials.com/uPyCraftWindows or 
+- [x] UPyCraft v1.1 IDE - https://randomnerdtutorials.com/uPyCraftWindows or  https://github.com/baponkar/micropython-in-esp8266/blob/main/uPyCraft_V1.1.exe
 
 * firmeware install into esp8266 board
 ![GitHub Logo](upycraft_frimeware_install.png)
