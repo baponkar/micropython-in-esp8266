@@ -7,12 +7,7 @@
 
 [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://paypal.me/baponkar?locale.x=en_GB)
 
-* :octocat: Version -v-1.0.0
-* :octocat: License- GNU GPL V3.O
 
-#### DESCRIPTION:
-* This repository is complete description of using Micropython in esp8266 with practical example and tool setup and also discussion about many problems as well as its solutions.
-* I will appreciate any kind update or suggestions.
 ----------------------------------------------------------------------------------------------
 <!-- Please don't remove this: Grab your social icons from https://github.com/carlsednaoui/gitsocial -->
 
@@ -44,7 +39,12 @@
 <!-- Please don't remove this: Grab your social icons from https://github.com/carlsednaoui/gitsocial -->
 
 
+* :octocat: Version -v-1.0.0
+* :octocat: License- GNU GPL V3.O
 
+#### DESCRIPTION:
+* This repository is complete description of using Micropython in esp8266 with practical example and tool setup and also discussion about many problems as well as its solutions.
+* I will appreciate any kind update or suggestions.
 
 
 ![GitHub Logo](NodeMCU-ESP8266-Pinout.jpg)
