@@ -11,7 +11,7 @@
 
 - [x] My System is Windows-10
 
-- [x] Board - ![NodeMCU ESP8266](https://www.amazon.in/Generic-Nodemcu-Esp8266-Internet-Development/dp/B07262H53W/ref=sr_1_2?dchild=1&keywords=esp8266&qid=1610616571&sr=8-2)
+- [x] Board - NodeMCU ESP8266(https://www.amazon.in/Generic-Nodemcu-Esp8266-Internet-Development/dp/B07262H53W/ref=sr_1_2?dchild=1&keywords=esp8266&qid=1610616571&sr=8-2)
 
 - [x] System Python version - Python-3.7.9 - https://www.python.org/ftp/python/3.9.1/python-3.9.1-amd64.exe
 
