@@ -27,6 +27,8 @@
 
 ## Installing tool for esp8266 in Ubuntu
 
+- [x] ```sudo apt-get update```
+- [x] ``` sudo apt-get install python3```
 - [x]  ``` sudo pip3 install esptool ```
 - [x] ``` esptool.py --port /dev/ttyUSB0 erase_flash ```
 - [x] ``` esptool.py --port /dev/ttyUSB0 --baud 460800 write_flash --flash_size=detect 0 esp8266-20170108-v1.8.7.bin ```
