@@ -1,7 +1,8 @@
 # Micropython-in-NodeMCUesp8266
 
 ![Micropython Badge](https://img.shields.io/badge/micro-python-yellowgreen)
-
+![Nodemcu esp8266](https://img.shields.io/badge/NodeMCU-esp8266-red)
+![uPycraft](https://img.shields.io/badge/uPyCraft-IDE-brightgreen)
 
 ![GitHub Logo](NodeMCU-ESP8266-Pinout.jpg)
 Step by step micropython test in esp8266
