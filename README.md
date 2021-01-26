@@ -70,15 +70,14 @@
 ## Installing tool for esp8266 in Ubuntu
 
 - [x] ```sudo apt-get update```
-- [x] ``` sudo apt-get install python3```
+- [x] Installing [python3](https://www.python.org/download/releases/3.0/) ``` sudo apt-get install python3```
 - [x]  ``` sudo pip3 install esptool ```
-- [x] ``` esptool.py --port /dev/ttyUSB0 erase_flash ```
-- [x] ``` esptool.py --port /dev/ttyUSB0 --baud 460800 write_flash --flash_size=detect 0 esp8266-20170108-v1.8.7.bin ```
-- [x] ``` esptool.py --port /dev/ttyUSB0 --baud 460800 write_flash --flash_size=detect -fm dio 0 esp8266-20170108-v1.8.7.bin ```
-- [x] ``` picocom /dev/ttyUSB0 -b115200 ```
+- [x] Installing [esptool](https://github.com/espressif/esptool) to flash esp8266 ``` esptool.py --port /dev/ttyUSB0 erase_flash ```
+- [x] installing firmware into esp8266 board``` esptool.py --port /dev/ttyUSB0 --baud 460800 write_flash --flash_size=detect 0 esp8266-20170108-v1.8.7.bin ```
+- [x] To run live micropython code on the board install picocom``` picocom /dev/ttyUSB0 -b115200 ```
 - [x] You need to install [ampy](https://pypi.org/project/adafruit-ampy/)``` sudo pip3 install adafruit-ampy ```
 - [x] ``` ampy --help ```
-- [x] see port: ``` ls -l /dev/tty/* ``` then run next command
+- [x] see port usually last of the list be the port of esp8266: ``` ls -l /dev/tty/* ``` then run next command
 - [x] ``` ampy --port USB0 put test.txt  ```
 
 ###### [Micropython Documentation](https://docs.micropython.org/en/latest/esp8266/tutorial/intro.html)
