@@ -15,7 +15,7 @@
 
 - [x] System Python version - [Python-3.7.9 ](https://www.python.org/ftp/python/3.9.1/python-3.9.1-amd64.exe)
 
-- [x] [Micropython Firmwaire] (http://micropython.org/resources/firmware/esp8266-20170108-v1.8.7.bin) or [Micropython-v1.8.7.bin](https://github.com/baponkar/micropython-in-esp8266/blob/main/esp8266-20170108-v1.8.7.bin)
+- [x] [Micropython Firmwaire](http://micropython.org/resources/firmware/esp8266-20170108-v1.8.7.bin) or [Micropython-v1.8.7.bin](https://github.com/baponkar/micropython-in-esp8266/blob/main/esp8266-20170108-v1.8.7.bin)
 
 - [x] [UPyCraft v1.1 IDE](https://randomnerdtutorials.com/uPyCraftWindows or  https://github.com/baponkar/micropython-in-esp8266/blob/main/uPyCraft_V1.1.exe)
 
