@@ -11,7 +11,7 @@
 * :octocat: License- GNU GPL V3.O
 
 #### DESCRIPTION:
-* This repository is complete description of esp8266 with practical example and tool setup.
+* This repository is complete description of using Micropython in esp8266 with practical example and tool setup and also discussion about many problems as well as its solutions.
 * I will appreciate any kind update or suggestions.
 ----------------------------------------------------------------------------------------------
 <!-- Please don't remove this: Grab your social icons from https://github.com/carlsednaoui/gitsocial -->
