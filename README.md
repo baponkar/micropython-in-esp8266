@@ -3,6 +3,7 @@
 ![Micropython Badge](https://img.shields.io/badge/micro-python-yellowgreen)
 ![Nodemcu esp8266](https://img.shields.io/badge/NodeMCU-esp8266-red)
 ![uPycraft](https://img.shields.io/badge/uPyCraft-IDE-brightgreen)
+![Windows 10 pro](https://img.shields.io/badge/Windows-10-blue)
 
 ![GitHub Logo](NodeMCU-ESP8266-Pinout.jpg)
 
