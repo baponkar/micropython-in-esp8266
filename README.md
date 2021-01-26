@@ -32,7 +32,10 @@
 - [x] ``` esptool.py --port /dev/ttyUSB0 --baud 460800 write_flash --flash_size=detect 0 esp8266-20170108-v1.8.7.bin ```
 - [x] ``` esptool.py --port /dev/ttyUSB0 --baud 460800 write_flash --flash_size=detect -fm dio 0 esp8266-20170108-v1.8.7.bin ```
 - [x] ``` picocom /dev/ttyUSB0 -b115200 ```
-- [x] ```  ```
+- [x] You need to install [ampy](https://pypi.org/project/adafruit-ampy/)``` sudo pip3 install adafruit-ampy ```
+- [x] ``` ampy --help ```
+- [x] see port: ``` ls -l /dev/tty/* ``` then run next command
+- [x] ``` ampy --port USB0 put test.txt  ```
 
 ###### [Micropython Documentation](https://docs.micropython.org/en/latest/esp8266/tutorial/intro.html)
 
