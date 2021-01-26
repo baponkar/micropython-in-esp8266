@@ -37,5 +37,11 @@ Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
 MemoryError: memory allocation failed, allocating 10496 bytes
 ```
-Then you need to make a custom firmwire and add [frozen module](https://learn.adafruit.com/micropython-for-samd21/frozen-modules) to save memory
+Then you need to make a custom firmwire and add [frozen module](https://learn.adafruit.com/micropython-for-samd21/frozen-modules) to save memory.
+Installing virtualbox on Ubuntu :
+```
+sudo apt install virtualbox-qt
+
+```
+Installing [Vagrant](https://linuxize.com/post/how-to-install-vagrant-on-ubuntu-20-04/) on Ubuntu
 
