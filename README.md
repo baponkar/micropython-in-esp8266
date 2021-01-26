@@ -26,20 +26,19 @@
 <!-- no need to change these -->
 
 <!-- icons with padding -->
-
-[1.1]: http://i.imgur.com/tXSoThF.png (twitter icon with padding)
+[1.1]: http://i.imgur.com/P3YfQoD.png (facebook icon with padding)
 
 
 <!-- icons without padding -->
 
-[1.2]: http://i.imgur.com/wWzX9uB.png (twitter icon without padding)
+[1.1]: http://i.imgur.com/fep1WsG.png (facebook icon without padding)
 
 
 
 <!-- links to your social media accounts -->
 <!-- update these accordingly -->
 
-[1]: https://twitter.com/kar_bapon
+[1]: https://www.facebook.com/bapon.kar
 
 
 <!-- Please don't remove this: Grab your social icons from https://github.com/carlsednaoui/gitsocial -->
