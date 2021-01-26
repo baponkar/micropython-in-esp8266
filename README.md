@@ -98,8 +98,15 @@ Traceback (most recent call last):
 MemoryError: memory allocation failed, allocating 10496 bytes
 ```
 Then you need to make a custom firmwire and add [frozen module](https://learn.adafruit.com/micropython-for-samd21/frozen-modules) to save memory.
-Now you need to change file.py to file.mpy which generally takes lower ram than .py file to change into .mpy file you need to install following software into your Ubuntu device.If you are using widows then you need to install virtual box inside of windows and then you need to install [ubuntu](https://releases.ubuntu.com/20.04/) os(OR [another method](https://ubuntu.com/tutorials/ubuntu-on-windows#1-overview)) on that virtualbox and then you need to install following software on ubuntu. 
+Now you need to change file.py to file.mpy which generally takes lower ram than .py file to change into .mpy file .
+Install mpy-cross :``` sudo pip3 install mpy-cross```
+Checking mpy-cross version ``` python3 -m mpy_cross --version```
+Changing .py to .mpy file ```python3 -m mpy_cross blink.mpy -s blink.py```
+
+you need to install following software into your Ubuntu device.If you are using widows then you need to install virtual box inside of windows and then you need to install [ubuntu](https://releases.ubuntu.com/20.04/) os(OR [another method](https://ubuntu.com/tutorials/ubuntu-on-windows#1-overview)) on that virtualbox and then you need to install following software on ubuntu. 
 Installing virtualbox on Ubuntu :
+
+
 ```
 sudo apt-get update
 sudo apt install virtualbox-qt
