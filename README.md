@@ -41,8 +41,29 @@ Then you need to make a custom firmwire and add [frozen module](https://learn.ad
 Now you need to change file.py to file.mpy which generally takes lower ram than .py file to change into .mpy file you need to install following software into your Ubuntu device.If you are using widows then you need to install virtual box inside of windows and then you need to install ubuntu os on that virtualbox and then you need to install following software on ubuntu. 
 Installing virtualbox on Ubuntu :
 ```
+sudo apt-get update
 sudo apt install virtualbox-qt
 
 ```
-Installing [Vagrant](https://linuxize.com/post/how-to-install-vagrant-on-ubuntu-20-04/) on Ubuntu
+Installing [Vagrant](https://linuxize.com/post/how-to-install-vagrant-on-ubuntu-20-04/) on Ubuntu:
+```
+sudo apt install curl
+curl -O https://releases.hashicorp.com/vagrant/2.2.9/vagrant_2.2.9_x86_64.deb
+sudo apt install ./vagrant_2.2.9_x86_64.deb
+vagrant --version
+```
+Getting Started with Vagrant 
+```
+mkdir ~/my-vagrant-project
+cd ~/my-vagrant-project
+
+```
+[Vagrant Catalog box](https://www.vagrantup.com/docs/boxes)
+```
+vagrant init centos/8
+```
+```
+vagrant up
+```
+
 
