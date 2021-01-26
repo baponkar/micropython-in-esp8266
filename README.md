@@ -78,7 +78,7 @@
 - [x] You need to install [ampy](https://pypi.org/project/adafruit-ampy/)``` sudo pip3 install adafruit-ampy ```
 - [x] ``` ampy --help ```
 - [x] see port usually last of the list be the port of esp8266: ``` ls -l /dev/tty/* ``` then run next command
-- [x] ``` ampy --port USB0 put test.txt  ```
+- [x] Now upload blink.py micropython file into the board by following command on the terminal``` ampy --port USB0 put blink.py  ```
 
 ###### [Micropython Documentation](https://docs.micropython.org/en/latest/esp8266/tutorial/intro.html)
 
