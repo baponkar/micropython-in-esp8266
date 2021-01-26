@@ -6,7 +6,7 @@ led = Pin(2, Pin.OUT) #Define onboard pin , external led should connect to D4 pi
 #led.low()
  
 while True:
-  led.high()
+  led.high()  #led.value(1)
   time.sleep(0.5)
-  led.low()
+  led.low()  #led.value(0)
   time.sleep(0.5)
