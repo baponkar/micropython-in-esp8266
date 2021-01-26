@@ -12,7 +12,7 @@
 
 #### DESCRIPTION:
 * This repository is complete description of esp8266 with practical example and tool setup.
-* * You can help me to add that feature.
+* You can help me to add that feature.
 ----------------------------------------------------------------------------------------------
 <!-- Please don't remove this: Grab your social icons from https://github.com/carlsednaoui/gitsocial -->
 
