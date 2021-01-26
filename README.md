@@ -16,4 +16,7 @@ Step by step micropython test in esp8266
 ![GitHub Logo](upycraft_frimeware_install1.png)
 
 * Onboard Led blink - https://github.com/baponkar/micropython-in-esp8266/blob/main/onboard_led_control.py
+* Network Control - https://github.com/baponkar/micropython-in-esp8266/blob/main/network_control.py
+* Servo Control - https://github.com/baponkar/micropython-in-esp8266/blob/main/servo_control.py
+* File Manipulation - https://github.com/baponkar/micropython-in-esp8266/blob/main/file_manipulation.py
 
