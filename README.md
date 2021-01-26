@@ -30,3 +30,12 @@
 * [Servo Control](https://github.com/baponkar/micropython-in-esp8266/blob/main/servo_control.py)
 * [File Manipulation](https://github.com/baponkar/micropython-in-esp8266/blob/main/file_manipulation.py)
 
+Sometimes you may have this kind error:
+```download ok
+exec(open('main.py').read(),globals())
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+MemoryError: memory allocation failed, allocating 10496 bytes
+```
+Then you need to make a custom firmwire and add frozen module to save memory
+
