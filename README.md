@@ -97,7 +97,7 @@ Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
 MemoryError: memory allocation failed, allocating 10496 bytes
 ```
-Install micropython in [Ubuntu](https://snapcraft.io/install/micropython/ubuntu/install#) by following commands:
+Install micropython in [Ubuntu](https://snapcraft.io/install/micropython/ubuntu#install) by following commands:
 ```
 sudo apt-get update
 sudo apt-get install snapd
