@@ -97,7 +97,7 @@ Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
 MemoryError: memory allocation failed, allocating 10496 bytes
 ```
-Then you need to make a custom firmwire and add [frozen module](https://learn.adafruit.com/micropython-for-samd21/frozen-modules) to save memory.
+Then you need to make a custom firmwire and add [frozen module](https://learn.adafruit.com/micropython-basics-loading-modules/frozen-modules) to save memory.
 Now you need to change file.py to [file.mpy](http://docs.micropython.org/en/v1.12/reference/mpyfiles.html) which generally takes lower ram than .py file to change into .mpy file .
 
 Install [mpy-cross](https://pypi.org/project/mpy-cross/) :``` sudo pip3 install mpy-cross ```
