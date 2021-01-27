@@ -142,6 +142,6 @@ vagrant init centos/8
 ```
 vagrant up
 ```
-Now [It's time to build yours own firmware](https://learn.adafruit.com/building-and-running-micropython-on-the-esp8266/build-firmware) for esp8266 as you can able to use pre baked .mpy file as it is taking less memory and resolve the previous memory allocation  error.
+Now It's time to build yours own firmware for [Ubuntu](https://learn.adafruit.com/building-and-running-micropython-on-the-esp8266/build-firmware) or for [Windows -10](https://medium.com/@botdotcom/installing-virtualbox-and-vagrant-on-windows-10-2e5cbc6bd6ad#:~:text=%20Installing%20VirtualBox%20and%20Vagrant%20on%20Windows%2010,halt%20to%20shut%20it%20down.%20%20More)for esp8266 as you can able to use pre baked .mpy file as it is taking less memory and resolve the previous memory allocation  error.
 
 
