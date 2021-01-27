@@ -97,6 +97,13 @@ Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
 MemoryError: memory allocation failed, allocating 10496 bytes
 ```
+Install micropython in [Ubuntu](https://snapcraft.io/install/micropython/ubuntu/install#) by following commands:
+```
+sudo apt-get update
+sudo apt-get install snapd
+sudo snap install micropython
+```
+
 Then you need to make a custom firmwire and add [frozen module](https://learn.adafruit.com/micropython-basics-loading-modules/frozen-modules) to save memory.
 Now you need to change file.py to [file.mpy](http://docs.micropython.org/en/v1.12/reference/mpyfiles.html) which generally takes lower ram than .py file to change into .mpy file .
 
