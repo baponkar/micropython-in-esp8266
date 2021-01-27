@@ -142,6 +142,6 @@ vagrant init centos/8
 ```
 vagrant up
 ```
-Now [It's time to build yours own firmware](https://learn.adafruit.com/building-and-running-micropython-on-the-esp8266/build-firmware) for esp8266 as you can use prebaked .mpy file.
+Now [It's time to build yours own firmware](https://learn.adafruit.com/building-and-running-micropython-on-the-esp8266/build-firmware) for esp8266 as you can able to use pre baked .mpy file as it is taking less memory and resolve the previous memory allocation  error.
 
 
