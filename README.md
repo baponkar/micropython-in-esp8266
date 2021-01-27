@@ -90,7 +90,7 @@
 * [Servo Control](https://github.com/baponkar/micropython-in-esp8266/blob/main/servo_control.py)
 * [File Manipulation](https://github.com/baponkar/micropython-in-esp8266/blob/main/file_manipulation.py)
 
-Sometimes you may have this kind error:
+Sometimes you may have this kind error due to insufficient memory allocation:
 ```download ok
 exec(open('main.py').read(),globals())
 Traceback (most recent call last):
@@ -98,7 +98,7 @@ Traceback (most recent call last):
 MemoryError: memory allocation failed, allocating 10496 bytes
 ```
 Then you need to make a custom firmwire and add [frozen module](https://learn.adafruit.com/micropython-for-samd21/frozen-modules) to save memory.
-Now you need to change file.py to file.mpy which generally takes lower ram than .py file to change into .mpy file .
+Now you need to change file.py to [file.mpy](http://docs.micropython.org/en/v1.12/reference/mpyfiles.html) which generally takes lower ram than .py file to change into .mpy file .
 
 Install [mpy-cross](https://pypi.org/project/mpy-cross/) :``` sudo pip3 install mpy-cross ```
 
