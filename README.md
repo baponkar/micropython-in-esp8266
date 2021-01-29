@@ -142,6 +142,17 @@ vagrant init centos/8
 ```
 vagrant up
 ```
-Now It's time to build yours own firmware for [Ubuntu](https://learn.adafruit.com/building-and-running-micropython-on-the-esp8266/build-firmware) or for [Windows -10](https://medium.com/@botdotcom/installing-virtualbox-and-vagrant-on-windows-10-2e5cbc6bd6ad#:~:text=%20Installing%20VirtualBox%20and%20Vagrant%20on%20Windows%2010,halt%20to%20shut%20it%20down.%20%20More)for esp8266 as you can able to use pre baked .mpy file as it is taking less memory and resolve the previous memory allocation  error.
+Now It's time to build yours own firmware for [Ubuntu](https://learn.adafruit.com/building-and-running-micropython-on-the-esp8266/build-firmware) or for [Windows -10](https://medium.com/@botdotcom/installing-virtualbox-and-vagrant-on-windows-10-2e5cbc6bd6ad#:~:text=%20Installing%20VirtualBox%20and%20Vagrant%20on%20Windows%2010,halt%20to%20shut%20it%20down.%20%20More)for esp8266 as you can able to use pre baked .mpy file as it is taking less memory and resolve the previous memory allocation  error.\
+
+After doing all of the above staff and my final conclusion is micropython or circuitpython is not good choice for NodeMcuESP8266 module.
+So I am going back into default firmware.To download [default firmware](https://www.espressif.com/en/support/download/all) and addding  
+## Setup the Arduino IDE
+* Download Arduino IDE.
+* Open your IDE and click on File -> Preferences".
+* In “Aditional Boards Manager URLs” add this line and click on “OK”:
+-[x] http://arduino.esp8266.com/stable/package_esp8266com_index.json
+* Go to “Tools -> Board -> Boards Manager”, type “ESP8266” and install it.
+
+* Go again to “Tools -> Board” and select “Generic ESP8266 Module”.
 
 
