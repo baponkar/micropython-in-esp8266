@@ -5,7 +5,7 @@
 #endif
 #include <Espalexa.h>
 // define the GPIO connected with Relays
-#define LedPin1 5  //D1
+#define LedPin 5  //D1
 
 
 // prototypes
@@ -71,7 +71,7 @@ void firstLightChanged(uint8_t brightness)
     }
   else
   {
-    digitalWrite(RelayPin1, LOW);
+    digitalWrite(LedPin, LOW);
     Serial.println("Device1 OFF");
   }
 }
