@@ -156,10 +156,11 @@ So I am going back into default firmware.To download [default firmware](https://
 * Go again to “Tools -> Board” and select “Generic ESP8266 Module”.
 
 * [Control a LED attached on D1 Pin by Alexa](https://github.com/baponkar/micropython-in-esp8266/blob/main/led_control_by_alexa.ino)
- * You need following libraries : 
+  * You need following libraries : 
    * [ESPAlexa](https://github.com/Aircoookie/Espalexa)
 * [Getting BMP280 Sensor Temperature,Pressure and altitude](https://github.com/adafruit/Adafruit_BMP280_Library)
  * You need following libraries:
+   * Get I2C address  by [i2cscaner](https://github.com/baponkar/micropython-in-esp8266/blob/main/i2c_scanner.ino) of esp8266 to fill the ic2 address
    * [AdafruitBMP280](https://github.com/adafruit/Adafruit_BMP280_Library)
 
 
