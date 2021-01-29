@@ -159,7 +159,7 @@ So I am going back into default firmware.To download [default firmware](https://
   * You need following libraries : 
    * [ESPAlexa](https://github.com/Aircoookie/Espalexa)
 * [Getting BMP280 Sensor Temperature,Pressure and altitude](https://github.com/adafruit/Adafruit_BMP280_Library)
- * You need following libraries:
+  * You need following libraries:
    * Get I2C address  by [i2cscaner](https://github.com/baponkar/micropython-in-esp8266/blob/main/i2c_scanner.ino) of esp8266 to fill the ic2 address
    * [AdafruitBMP280](https://github.com/adafruit/Adafruit_BMP280_Library)
 
