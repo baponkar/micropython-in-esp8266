@@ -155,6 +155,8 @@ So I am going back into default firmware.To download [default firmware](https://
 
 * Go again to “Tools -> Board” and select “Generic ESP8266 Module”.
 
+* [Network](https://www.electronicshub.org/connect-esp8266-to-wifi/) control
+
 * [Control a LED attached on D1 Pin by Alexa](https://github.com/baponkar/micropython-in-esp8266/blob/main/led_control_by_alexa.ino)
   * You need following libraries : 
    * [ESPAlexa](https://github.com/Aircoookie/Espalexa)
