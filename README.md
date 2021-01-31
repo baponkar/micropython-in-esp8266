@@ -177,5 +177,6 @@ So I am going back into default firmware.To download [default firmware](https://
    * ![Photo 6](Screenshot_20210131-183724_Blynk.jpg)
    * [Adding time display in blynk app in above program](https://github.com/baponkar/micropython-in-esp8266/blob/main/bmp280_sensor_data_shown_in_blynk_with_time_display.ino)
      * You also need [time](https://github.com/PaulStoffregen/Time) library
+      * ![Blynk app interface of the above application](https://github.com/baponkar/micropython-in-esp8266/blob/main/blynk_app%5B1%5D.jpg)
      
 
