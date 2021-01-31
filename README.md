@@ -165,5 +165,14 @@ So I am going back into default firmware.To download [default firmware](https://
    * Get I2C address  by [i2cscaner](https://github.com/baponkar/micropython-in-esp8266/blob/main/i2c_scanner.ino) of esp8266 to fill the ic2 address
    * [AdafruitBMP280](https://github.com/adafruit/Adafruit_BMP280_Library)
  * [Web Controled LED](https://github.com/baponkar/micropython-in-esp8266/blob/main/web_controled_led)
-
+* [BMP280 sensor data show in blynk](https://github.com/baponkar/micropython-in-esp8266/tree/main)
+ * You need following libraries
+   *
+  * Blynk app making
+   * [Photo 1](Screenshot_20210131-183656_Blynk.jpg)
+   * [Photo 2](Screenshot_20210131-183627_Blynk.jpg)
+   * [Photo 3](Screenshot_20210131-183635_Blynk.jpg)
+   * [Photo 4](Screenshot_20210131-183639_Blynk.jpg)
+   * [Photo 5](Screenshot_20210131-183645_Blynk.jpg)
+   * [Photo 6](Screenshot_20210131-183656_Blynk.jpg)
 
