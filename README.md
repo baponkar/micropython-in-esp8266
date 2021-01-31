@@ -168,7 +168,7 @@ So I am going back into default firmware.To download [default firmware](https://
 * [BMP280 sensor data show in blynk](https://github.com/baponkar/micropython-in-esp8266/tree/main)
  * You need following libraries
    *
-  * Blynk app making
+  * [Blynk](https://blynk.io/) app making
    * ![Photo 1](Screenshot_20210131-183656_Blynk.jpg)
    * ![Photo 2](Screenshot_20210131-183627_Blynk.jpg)
    * ![Photo 3](Screenshot_20210131-183635_Blynk.jpg)
