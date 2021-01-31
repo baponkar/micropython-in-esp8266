@@ -169,10 +169,10 @@ So I am going back into default firmware.To download [default firmware](https://
  * You need following libraries
    *
   * Blynk app making
-   * [Photo 1](Screenshot_20210131-183656_Blynk.jpg)
-   * [Photo 2](Screenshot_20210131-183627_Blynk.jpg)
-   * [Photo 3](Screenshot_20210131-183635_Blynk.jpg)
-   * [Photo 4](Screenshot_20210131-183639_Blynk.jpg)
-   * [Photo 5](Screenshot_20210131-183645_Blynk.jpg)
-   * [Photo 6](Screenshot_20210131-183656_Blynk.jpg)
+   * ![Photo 1](Screenshot_20210131-183656_Blynk.jpg)
+   * ![Photo 2](Screenshot_20210131-183627_Blynk.jpg)
+   * ![Photo 3](Screenshot_20210131-183635_Blynk.jpg)
+   * ![Photo 4](Screenshot_20210131-183639_Blynk.jpg)
+   * ![Photo 5](Screenshot_20210131-183645_Blynk.jpg)
+   * ![Photo 6](Screenshot_20210131-183656_Blynk.jpg)
 
