@@ -51,13 +51,19 @@ WidgetRTC rtc;
 
 void clockDisplay()
 {
-  String currentTime = String(hour()) + " " + minute() + " " + second();
-  String currentDate = String(day()) + " " + month() + " " + year();
+  String currentTime = String(hour()) + " : " + minute() + " : " + second();
+  String currentDate = String(day()) + " : " + month() + " : " + year();
   Serial.print("Current Time: ");
+  Serial.print(" ");
   Serial.print(currentTime);
+  Serial.println();
   Serial.print("Current Date:");
+  Serial.print(" ");
   Serial.print(currentDate);
   Serial.println();
+
+  Blynk.virtualWrite(V8,currentTime);
+  Blynk.virtualWrite(V9,currentDate);
 
 
 }
@@ -110,7 +116,7 @@ void setup() {
   Blynk.begin(auth, ssid, pass);
   //timer.setInterval(1000L, myTimerEvent);
   timer.setInterval(1000L,mySensorEvent);
-  timer.setInterval(500L,clockDisplay);
+  timer.setInterval(1000L,clockDisplay);
 
   if (!bmp.begin(0x76)) {
     Serial.println(F("Could not find a valid BMP280 sensor, check wiring!"));
@@ -128,8 +134,8 @@ void setup() {
 }
 
 void loop() {
-   Blynk.run();
-   timer.run();
+  Blynk.run();
+  timer.run();
   sensors_event_t temp_event, pressure_event;
   bmp_temp->getEvent(&temp_event);
   bmp_pressure->getEvent(&pressure_event);
