@@ -62,6 +62,18 @@ void mySensorEvent()
   Blynk.virtualWrite(V5,temp);
   Blynk.virtualWrite(V6,pressure);
   Blynk.virtualWrite(V7,altitude);
+  
+    if ( temp < 10)
+  {
+    Blynk.notify("It is a Extream Winter!");//Sending notification
+    Blynk.email("Baponkar600@gmail.com","ESP8266 Sensor alert!","It is a Extream Winter!");
+  }
+  else if ( temp > 40)
+  {
+    Blynk.notify("It is a Extream hot!");
+     Blynk.email("Baponkar600@gmail.com","ESP8266 Sensor alert!","It is a Extream hot!"); //Sending pushmail notification 
+  }
+
 }
 
 
